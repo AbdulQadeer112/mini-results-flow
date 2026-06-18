@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import "tailwindcss";
+
+html, body, #root {
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+  background: #fff;
+}
+
+/* Dark mode styles */
+html.dark, body.dark, #root.dark {
+  background: #12221F;
+}
+
+body.dark {
+  color: #fff;
+}
+
+/* Card dark mode */
+.dark .bg-white {
+  background-color: #3B4744 !important;
+  color: #fff !important;
+}
+
+.dark .text-custom-12241F, 
+.dark .text-custom-13556F, 
+.dark .text-custom-183B49 {
+  color: #fff !important;
+}
+
+.dark .border-gray-100 {
+  border-color: #3B4744 !important;
+}
